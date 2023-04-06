@@ -1,0 +1,109 @@
+body{
+  background-color: rgb(228, 223, 223);
+}
+
+#main-header{
+    background-color: antiquewhite;
+    line-height: 20px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+
+#main-header{
+  font-size: 16px;
+  padding-top: 30px;
+  padding-left: 20px;
+ 
+}
+
+.topnav a{
+    float: right;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 6pk;
+    padding: 14px 16px;
+
+}
+
+.topnav a:hover{
+    background-color: black;
+    color: white;
+}
+  
+img {
+ width: 440px;
+ height: auto; 
+ align:center;
+ padding-left: 80px;
+
+}  
+  
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  align: center;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(122, 119, 119);
+  color: white;
+}
+
+.img {
+  padding-left: 20px;
+}
+
+.container {
+  padding: 16px:
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
